@@ -1,0 +1,11 @@
+{% extends 'base.html' %} <!-- base에서 공통 코드를 상속받아 쓴다는 뜻 -->
+    
+{% block content %} <!-- base에 없는 home 고유 코드 부분 -->
+    <!-- 부트스트랩 Alerts의 Additional content -->
+      <div class="alert alert-success" role="alert">
+        <h4 class="alert-heading">홈페이지입니다.</h4>
+        <p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.</p>
+        <hr>
+        <p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
+      </div>
+{% endblock %}
